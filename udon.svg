@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="68%">
+      <stop offset="0%" stop-color="#261d16"/>
+      <stop offset="100%" stop-color="#0a0908"/>
+    </radialGradient>
+    <radialGradient id="plate" cx="38%" cy="28%" r="72%">
+      <stop offset="0%" stop-color="#302620"/>
+      <stop offset="100%" stop-color="#100d0b"/>
+    </radialGradient>
+    <radialGradient id="rice" cx="38%" cy="30%" r="72%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#d9cfbc"/>
+    </radialGradient>
+    <linearGradient id="salmon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffa878"/>
+      <stop offset="55%" stop-color="#f4703c"/>
+      <stop offset="100%" stop-color="#c2451c"/>
+    </linearGradient>
+    <linearGradient id="eel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6b3a18"/>
+      <stop offset="100%" stop-color="#2e1608"/>
+    </linearGradient>
+    <pattern id="grain" width="13" height="13" patternUnits="userSpaceOnUse">
+      <ellipse cx="4" cy="4" rx="2.1" ry="1.2" fill="#fff" opacity="0.9"/>
+      <ellipse cx="10" cy="10" rx="2.1" ry="1.2" fill="#fff" opacity="0.9"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="340" rx="352" ry="222" fill="url(#plate)"/>
+  <ellipse cx="400" cy="340" rx="352" ry="222" fill="none" stroke="#e0c48a" stroke-opacity="0.34"/>
+  <ellipse cx="400" cy="340" rx="308" ry="186" fill="none" stroke="#e0c48a" stroke-opacity="0.15"/>
+
+  <g>
+    <g transform="translate(220,240) rotate(-14)">
+      <ellipse cy="6" rx="50" ry="36" fill="#000" opacity="0.55"/>
+      <circle r="47" fill="url(#grain)"/>
+      <circle r="37" fill="#1f2c1f"/>
+      <circle r="30" fill="url(#salmon)"/>
+    </g>
+    <g transform="translate(360,215) rotate(6)">
+      <ellipse cy="6" rx="50" ry="36" fill="#000" opacity="0.55"/>
+      <circle r="47" fill="url(#grain)"/>
+      <circle r="37" fill="#1f2c1f"/>
+      <circle r="30" fill="#e8a83a"/>
+    </g>
+    <g transform="translate(500,225) rotate(16)">
+      <ellipse cy="6" rx="50" ry="36" fill="#000" opacity="0.55"/>
+      <circle r="47" fill="url(#grain)"/>
+      <circle r="37" fill="#1f2c1f"/>
+      <circle r="30" fill="url(#eel)"/>
+    </g>
+    <g transform="translate(620,285) rotate(-8)">
+      <ellipse cy="6" rx="50" ry="36" fill="#000" opacity="0.55"/>
+      <circle r="47" fill="url(#grain)"/>
+      <circle r="37" fill="#1f2c1f"/>
+      <circle r="30" fill="#f5c88a"/>
+    </g>
+    <g transform="translate(230,345) rotate(10)">
+      <ellipse cy="6" rx="50" ry="36" fill="#000" opacity="0.55"/>
+      <circle r="47" fill="url(#grain)"/>
+      <circle r="37" fill="#1f2c1f"/>
+      <circle r="30" fill="#c8901c"/>
+    </g>
+    <g transform="translate(370,335) rotate(-12)">
+      <ellipse cy="6" rx="50" ry="36" fill="#000" opacity="0.55"/>
+      <circle r="47" fill="url(#grain)"/>
+      <circle r="37" fill="#1f2c1f"/>
+      <circle r="30" fill="url(#salmon)"/>
+    </g>
+    <g transform="translate(510,340) rotate(8)">
+      <ellipse cy="6" rx="50" ry="36" fill="#000" opacity="0.55"/>
+      <circle r="47" fill="url(#grain)"/>
+      <circle r="37" fill="#1f2c1f"/>
+      <circle r="30" fill="#ff9d6b"/>
+    </g>
+    <g transform="translate(300,430) rotate(-16)">
+      <ellipse cy="6" rx="50" ry="36" fill="#000" opacity="0.55"/>
+      <circle r="47" fill="url(#grain)"/>
+      <circle r="37" fill="#1f2c1f"/>
+      <circle r="30" fill="#d4483a"/>
+    </g>
+    <g transform="translate(450,435) rotate(12)">
+      <ellipse cy="6" rx="50" ry="36" fill="#000" opacity="0.55"/>
+      <circle r="47" fill="url(#grain)"/>
+      <circle r="37" fill="#1f2c1f"/>
+      <circle r="30" fill="#7cb342"/>
+    </g>
+    <g transform="translate(590,420) rotate(-6)">
+      <ellipse cy="6" rx="50" ry="36" fill="#000" opacity="0.55"/>
+      <circle r="47" fill="url(#grain)"/>
+      <circle r="37" fill="#1f2c1f"/>
+      <circle r="30" fill="#e8c8a0"/>
+    </g>
+  </g>
+
+  <ellipse cx="400" cy="520" rx="345" ry="26" fill="#000" opacity="0.5"/>
+</svg>

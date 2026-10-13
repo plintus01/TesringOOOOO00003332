@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="68%">
+      <stop offset="0%" stop-color="#1e2a18"/>
+      <stop offset="100%" stop-color="#0a0908"/>
+    </radialGradient>
+    <radialGradient id="plate" cx="38%" cy="28%" r="72%">
+      <stop offset="0%" stop-color="#2c231c"/>
+      <stop offset="100%" stop-color="#0f0c0a"/>
+    </radialGradient>
+    <radialGradient id="rice" cx="38%" cy="30%" r="72%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#d9cfbc"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="340" rx="340" ry="215" fill="url(#plate)"/>
+  <ellipse cx="400" cy="340" rx="340" ry="215" fill="none" stroke="#e0c48a" stroke-opacity="0.3"/>
+  <ellipse cx="400" cy="340" rx="296" ry="180" fill="none" stroke="#e0c48a" stroke-opacity="0.14"/>
+
+  <g>
+    <g transform="translate(250,235)">
+      <ellipse cy="6" rx="44" ry="32" fill="#000" opacity="0.55"/>
+      <circle r="42" fill="#1c2b1c"/>
+      <circle r="33" fill="url(#rice)"/>
+      <ellipse rx="22" ry="6" fill="#ff8c5c"/>
+    </g>
+    <g transform="translate(400,215)">
+      <ellipse cy="6" rx="44" ry="32" fill="#000" opacity="0.55"/>
+      <circle r="42" fill="#1c2b1c"/>
+      <circle r="33" fill="url(#rice)"/>
+      <ellipse rx="22" ry="6" fill="#d4483a"/>
+    </g>
+    <g transform="translate(550,235)">
+      <ellipse cy="6" rx="44" ry="32" fill="#000" opacity="0.55"/>
+      <circle r="42" fill="#1c2b1c"/>
+      <circle r="33" fill="url(#rice)"/>
+      <ellipse rx="22" ry="6" fill="#8a5a2a"/>
+    </g>
+    <g transform="translate(300,330)">
+      <ellipse cy="6" rx="44" ry="32" fill="#000" opacity="0.55"/>
+      <circle r="42" fill="#1c2b1c"/>
+      <circle r="33" fill="url(#rice)"/>
+      <ellipse rx="22" ry="6" fill="#ff9d6b"/>
+    </g>
+    <g transform="translate(450,330)">
+      <ellipse cy="6" rx="44" ry="32" fill="#000" opacity="0.55"/>
+      <circle r="42" fill="#1c2b1c"/>
+      <circle r="33" fill="url(#rice)"/>
+      <ellipse rx="22" ry="6" fill="#e8c8a0"/>
+    </g>
+    <g transform="translate(250,425)">
+      <ellipse cy="6" rx="44" ry="32" fill="#000" opacity="0.55"/>
+      <circle r="42" fill="#1c2b1c"/>
+      <circle r="33" fill="url(#rice)"/>
+      <ellipse rx="22" ry="6" fill="#ff6b35"/>
+    </g>
+    <g transform="translate(400,425)">
+      <ellipse cy="6" rx="44" ry="32" fill="#000" opacity="0.55"/>
+      <circle r="42" fill="#1c2b1c"/>
+      <circle r="33" fill="url(#rice)"/>
+      <ellipse rx="22" ry="6" fill="#7cb342"/>
+    </g>
+    <g transform="translate(550,425)">
+      <ellipse cy="6" rx="44" ry="32" fill="#000" opacity="0.55"/>
+      <circle r="42" fill="#1c2b1c"/>
+      <circle r="33" fill="url(#rice)"/>
+      <ellipse rx="22" ry="6" fill="#c8d84a"/>
+    </g>
+    <g transform="translate(500,470)">
+      <ellipse cy="6" rx="44" ry="32" fill="#000" opacity="0.55"/>
+      <circle r="42" fill="#1c2c1c"/>
+      <circle r="33" fill="url(#rice)"/>
+      <ellipse rx="22" ry="6" fill="#5a8a3e"/>
+    </g>
+  </g>
+
+  <ellipse cx="400" cy="515" rx="330" ry="24" fill="#000" opacity="0.45"/>
+</svg>

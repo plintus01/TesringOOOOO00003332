@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="68%">
+      <stop offset="0%" stop-color="#2e2610"/>
+      <stop offset="100%" stop-color="#0a0908"/>
+    </radialGradient>
+    <linearGradient id="fry" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5d77e"/>
+      <stop offset="55%" stop-color="#d4a437"/>
+      <stop offset="100%" stop-color="#a07c1a"/>
+    </linearGradient>
+    <linearGradient id="box" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c42a1e"/>
+      <stop offset="100%" stop-color="#7a140c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="510" rx="220" ry="34" fill="#000" opacity="0.55"/>
+
+  <g>
+    <rect x="180" y="150" width="12" height="150" rx="4" fill="url(#fry)" transform="rotate(-12 186 225)"/>
+    <rect x="230" y="120" width="12" height="170" rx="4" fill="url(#fry)" transform="rotate(-5 236 205)"/>
+    <rect x="280" y="140" width="12" height="160" rx="4" fill="url(#fry)" transform="rotate(3 286 220)"/>
+    <rect x="330" y="110" width="12" height="180" rx="4" fill="url(#fry)" transform="rotate(9 336 200)"/>
+    <rect x="380" y="135" width="12" height="165" rx="4" fill="url(#fry)" transform="rotate(-8 386 217)"/>
+    <rect x="430" y="115" width="12" height="175" rx="4" fill="url(#fry)" transform="rotate(5 436 202)"/>
+    <rect x="480" y="145" width="12" height="155" rx="4" fill="url(#fry)" transform="rotate(-3 486 222)"/>
+    <rect x="530" y="125" width="12" height="170" rx="4" fill="url(#fry)" transform="rotate(11 536 210)"/>
+    <rect x="575" y="155" width="12" height="145" rx="4" fill="url(#fry)" transform="rotate(-9 581 227)"/>
+    <rect x="205" y="160" width="12" height="150" rx="4" fill="url(#fry)" transform="rotate(6 211 235)"/>
+    <rect x="355" y="145" width="12" height="160" rx="4" fill="url(#fry)" transform="rotate(-14 361 225)"/>
+    <rect x="505" y="150" width="12" height="158" rx="4" fill="url(#fry)" transform="rotate(8 511 229)"/>
+  </g>
+
+  <path d="M170 270 L240 510 L560 510 L630 270 Z" fill="url(#box)"/>
+  <path d="M170 270 L240 510 L560 510 L630 270 Z" fill="none" stroke="#5a0e08" stroke-width="3"/>
+  <path d="M200 300 L255 480 L545 480 L600 300 Z" fill="none" stroke="#fff" stroke-opacity="0.14" stroke-width="2"/>
+
+  <ellipse cx="400" cy="278" rx="225" ry="26" fill="#a07c1a" opacity="0.5"/>
+</svg>
